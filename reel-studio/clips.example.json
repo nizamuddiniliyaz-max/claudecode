@@ -1,0 +1,41 @@
+{
+  "source": "~/Downloads/video1669769194.mp4",
+  "transcript": "transcript.json",
+  "clips": [
+    {
+      "id": 1,
+      "start": 312.4,
+      "end": 371.0,
+      "hook": "Your team already has a hierarchy",
+      "tag": "Leadership",
+      "caption_style": "impact",
+      "theme": "midnight",
+      "layout": "crop",
+      "emphasis": ["hierarchy", "authority"],
+      "graphics": [
+        { "type": "pyramid", "at": 330.2, "dur": 5,
+          "title": "The hierarchy", "labels": ["Vision", "Managers", "Doers"], "highlight": 0 },
+        { "type": "keyword", "text": "Authority", "sub": "who decides?", "at": 348.0, "dur": 2.2 },
+        { "type": "emoji", "char": "👑", "at": 331.0, "dur": 1.8, "x": 0.82, "y": 0.27 }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 540.0,
+      "end": 612.5,
+      "hook": "Who actually decides here?",
+      "caption_style": "boxed",
+      "theme": "violet",
+      "graphics": [
+        { "type": "tree", "at": 560.0, "dur": 6, "title": "Org chart", "highlight": ["CEO", "Ops"],
+          "tree": { "label": "CEO", "children": [
+            { "label": "Ops", "children": ["Team A", "Team B"] },
+            { "label": "Sales", "children": ["Team C"] } ] } },
+        { "type": "stat", "at": 590.0, "dur": 3.2, "value": 80, "suffix": "%",
+          "label": "of delays: unclear ownership" },
+        { "type": "steps", "at": 600.0, "dur": 5, "title": "The ladder",
+          "labels": ["Learn", "Own", "Lead", "Scale"] }
+      ]
+    }
+  ]
+}

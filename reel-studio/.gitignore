@@ -1,0 +1,9 @@
+work/
+out/
+selftest/out/
+selftest/out_music/
+selftest/fake_source.mp4
+selftest/tone.mp3
+selftest/clips_music.json
+__pycache__/
+*.pyc

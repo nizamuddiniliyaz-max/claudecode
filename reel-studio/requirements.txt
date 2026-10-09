@@ -1,0 +1,4 @@
+pillow>=10.1
+numpy
+faster-whisper
+opencv-python-headless

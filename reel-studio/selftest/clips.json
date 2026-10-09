@@ -1,0 +1,163 @@
+{
+  "source": "fake_source.mp4",
+  "transcript": "transcript.json",
+  "clips": [
+    {
+      "id": 1,
+      "caption_style": "impact",
+      "theme": "midnight",
+      "hook": "Your team already has a hierarchy",
+      "tag": "Leadership",
+      "start": 0.8,
+      "end": 14.84,
+      "graphics": [
+        {
+          "type": "pyramid",
+          "at": 11.32,
+          "dur": 4.5,
+          "labels": [
+            "Vision",
+            "Managers",
+            "Doers"
+          ],
+          "highlight": 0,
+          "title": "The hierarchy"
+        },
+        {
+          "type": "emoji",
+          "char": "👑",
+          "at": 2.05,
+          "dur": 1.8,
+          "x": 0.82,
+          "y": 0.27
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "caption_style": "boxed",
+      "theme": "violet",
+      "hook": "Who actually decides here?",
+      "tag": "Watch this",
+      "start": 15.48,
+      "end": 30.56,
+      "graphics": [
+        {
+          "type": "tree",
+          "at": 21.08,
+          "dur": 6,
+          "title": "Org chart",
+          "tree": {
+            "label": "CEO",
+            "children": [
+              {
+                "label": "Ops",
+                "children": [
+                  "Team A",
+                  "Team B"
+                ]
+              },
+              {
+                "label": "Sales",
+                "children": [
+                  "Team C"
+                ]
+              }
+            ]
+          },
+          "highlight": [
+            "CEO",
+            "Ops"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "caption_style": "editorial",
+      "theme": "ember",
+      "hook": "Authority without accountability fails",
+      "emphasis": [
+        "accountability",
+        "authority",
+        "hierarchy"
+      ],
+      "start": 26.88,
+      "end": 39.27,
+      "graphics": [
+        {
+          "type": "keyword",
+          "text": "Accountability",
+          "sub": "keep it close",
+          "at": 33.08,
+          "dur": 2.2
+        },
+        {
+          "type": "emoji",
+          "char": "🔥",
+          "at": 36.59,
+          "dur": 1.6,
+          "x": 0.2,
+          "y": 0.28
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "caption_style": "marker",
+      "theme": "forest",
+      "hook": "80% of delays are one thing",
+      "start": 39.91,
+      "end": 48.08,
+      "graphics": [
+        {
+          "type": "stat",
+          "value": 80,
+          "suffix": "%",
+          "label": "of delays: unclear ownership",
+          "at": 40.11,
+          "dur": 3.2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "caption_style": "stack",
+      "theme": "midnight",
+      "hook": "Promotion is not a reward",
+      "start": 48.72,
+      "end": 57.81,
+      "graphics": [
+        {
+          "type": "steps",
+          "at": 53.63,
+          "dur": 5,
+          "labels": [
+            "Learn",
+            "Own",
+            "Lead",
+            "Scale"
+          ],
+          "title": "The ladder"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "caption_style": "glow",
+      "theme": "violet",
+      "hook": "Flat teams still need structure",
+      "layout": "fit",
+      "start": 31.2,
+      "end": 39.27,
+      "graphics": [
+        {
+          "type": "keyword",
+          "text": "Structure",
+          "at": 36.31,
+          "dur": 2.0
+        }
+      ]
+    }
+  ]
+}
