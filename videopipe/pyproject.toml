@@ -1,0 +1,17 @@
+[project]
+name = "videopipe"
+version = "0.1.0"
+description = "Local-first video repurposing pipeline (milestone 1: transcript, research, ranked clip candidates)"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+transcribe = ["whisperx"]
+llm = ["anthropic"]
+dev = ["pytest"]
+
+[project.scripts]
+vp = "videopipe.cli:main"
+
+[tool.setuptools]
+packages = ["videopipe"]

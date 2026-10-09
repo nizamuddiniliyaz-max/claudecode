@@ -1,1 +1,7 @@
 clients/nizamuddin.iliyaz/
+
+VideoProjects/
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
