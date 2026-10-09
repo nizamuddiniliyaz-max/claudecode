@@ -3,3 +3,4 @@ mvanhorn_last30days-skill a3b73fc
 blader_humanizer 225a6f3
 coreyhaines31_marketingskills 1efedbc
 social-media-skills_skills 6e30eeb
+nicolaigaina_ai-video-captions bd87ac7
